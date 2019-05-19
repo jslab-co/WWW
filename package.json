@@ -1,0 +1,19 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Jslab WebSite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jslab-co/WWW.git"
+  },
+  "author": "Godti Vinod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jslab-co/WWW/issues"
+  },
+  "homepage": "https://github.com/jslab-co/WWW#readme"
+}

@@ -50,6 +50,23 @@ body {
             width: 5%;
         }
     }
+    header .social-media{
+        list-style-type:none;
+        float: right;
+    }
+    header .social-media li{
+        display: inline;
+        padding:5px;
+        color:#fff;
+        font-size:18px;
+    }
+    header .social-media li a{
+        color:#fff!important;
+        text-decoration:none; 
+        @include desktop{
+            color:#111!important;
+        }
+    }
 }
 
 main {
@@ -158,11 +175,11 @@ main {
             text-align:center;
             margin:50px auto 0 auto;
             padding:$padding;
-
+            border-radius: $borders;
             @include desktop{
                 display: inline-block;
                 padding: $padding $padding * 4;
-                border-radius:  0 $borders $borders 0 ;
+                //border-radius:  0 $borders $borders 0 ;
             }
         }
         

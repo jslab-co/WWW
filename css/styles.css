@@ -41,6 +41,29 @@ body header a img {
   }
 }
 
+body header .social-media {
+  list-style-type: none;
+  float: right;
+}
+
+body header .social-media li {
+  display: inline;
+  padding: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+body header .social-media li a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+@media (min-width: 840px) {
+  body header .social-media li a {
+    color: #111 !important;
+  }
+}
+
 @media (min-width: 840px) {
   main {
     display: -ms-grid;
@@ -171,13 +194,13 @@ main section#primary a {
   text-align: center;
   margin: 50px auto 0 auto;
   padding: 15px;
+  border-radius: 15px;
 }
 
 @media (min-width: 840px) {
   main section#primary a {
     display: inline-block;
     padding: 15px 60px;
-    border-radius: 0 15px 15px 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
